@@ -1,0 +1,25 @@
+.editor-block-list__block[data-type="gutenkit/spacer"] {
+
+	.wp-block-gutenkit-spacer {
+		border: 1px dashed #ddd;
+	}
+
+	.blocks-spacer__range {
+		position: absolute;
+		top: 13px;
+		width: 100%;
+		padding: 0 30px;
+
+		.blocks-range-control {
+			margin-bottom: 0;
+		}
+	}
+
+	.editor-block-list__block-edit {
+		position: relative;
+	}
+
+	.blocks-range-control__number {
+		display: none;
+	}
+}
