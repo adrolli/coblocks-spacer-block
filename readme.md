@@ -2,9 +2,15 @@
 
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/gutenkit-spacer-block/blob/master/license.txt)
 
-[GutenKit's](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkits) new Spacer Block is the easiest way to add vertical spacing between blocks within the Gutenberg editor.
+A Gutenberg block that let's you easily add vertical spacing between blocks within the Gutenberg editor. 
 
-![GutenKit Spacer Block for Gutenberg](https://user-images.githubusercontent.com/1813435/34617601-f5228c9e-f209-11e7-85af-b7f507bf3a06.gif)
+[![View the GutenKit Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://gutenkit.com)
+
+## Meet GutenKit. Coming April 2018. ##
+
+[![GutenKit, an upcoming kit of Gutenberg Blocks](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://gutenkit.com)
+    
+[GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkits) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages. 
 
 ## Installation ##
 
