@@ -13,7 +13,7 @@ A Gutenberg block from [GutenKit](https://gutenkit.com?utm_medium=gutenkit-space
 3. Download the plugin from the [WordPress plugin directory](https://wordpress.org/plugins/spacer-block-gutenberg/).
 
 ## Bugs ##
-If you find an issue, [create an issue](https://github.com/thatplugincompany/gutenkit-spacer-block/issues?state=open).
+If you find a 🐞 or an issue, [create an issue](https://github.com/thatplugincompany/gutenkit-spacer-block/issues?state=open).
 
 ## Development ##
 1. Clone the GitHub repository: `https://github.com/thatplugincompany/gutenkit-spacer-block.git`
