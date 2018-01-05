@@ -2,15 +2,9 @@
 
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/gutenkit-spacer-block/blob/master/license.txt)
 
-A Gutenberg block that let's you easily add vertical spacing between blocks within the Gutenberg editor. 
+A Gutenberg block from [GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkit) that let's you easily add vertical spacing between blocks within the Gutenberg editor. 
 
 [![View the GutenKit Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://gutenkit.com)
-
-## Meet GutenKit. Coming April 2018. ##
-
-[![GutenKit, an upcoming kit of Gutenberg Blocks](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://gutenkit.com)
-    
-[GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkits) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages. 
 
 ## Installation ##
 
@@ -39,3 +33,9 @@ There are various ways you can contribute:
 1. Raise an [Issue](https://github.com/thatplugincompany/gutenkit-spacer-block/issues) on GitHub
 2. Send a pull request with your bug fixes and/or new features
 3. Provide feedback and suggestions on [enhancements](https://github.com/thatplugincompany/gutenkit-spacer-block/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open)
+
+## Meet GutenKit. Coming April 2018. ##
+
+[![GutenKit, an upcoming kit of Gutenberg Blocks](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://gutenkit.com)
+    
+[GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=meeet-gutenkit) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages. 
