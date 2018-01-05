@@ -4,8 +4,6 @@
 
 [GutenKit's](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkits) new Spacer Block is the easiest way to add vertical spacing between blocks within the Gutenberg editor.
 
-### See it in action: ###
-
 ![GutenKit Spacer Block for Gutenberg](https://user-images.githubusercontent.com/1813435/34617601-f5228c9e-f209-11e7-85af-b7f507bf3a06.gif)
 
 ## Installation ##
