@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Spacer Block Gutenberg
+ * Plugin Name: Gutenberg Spacer Block Gutenberg by GutenKit
  * Plugin URI: https://gutenkit.com
  * Description: Easily add vertical spacers to space out your blocks within the upcoming Gutenberg editor. <strong>This is a beta release.</strong>
  * Author: Rich Tabor from GutenKit
