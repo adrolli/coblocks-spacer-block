@@ -2,6 +2,8 @@
  * @@pkg.title
  */
 
+import ResizableBox from 're-resizable';
+
 const { __ } = wp.i18n;
 const { Toolbar, PanelBody, PanelColor, Dashicon, IconButton } = wp.components;
 const InspectorControls = wp.blocks.InspectorControls;
@@ -32,11 +34,13 @@ const icon = [
 	focusable="false"
 	className="dashicon"
 	xmlns="http://www.w3.org/2000/svg"
-	width="18"
-	height="14"
-	viewBox="0 0 18 14"
+	width="20"
+	height="20"
+	viewBox="0 0 20 20"
 	>
-	<g><path d="M0,0 L18,0 L18,14 L0,14 L0,0 Z M2,2.03271484 L2,12.0327148 L16,12.0327148 L16,2.03271484 L2,2.03271484 Z"></path></g>
+	<g>
+		<path d="M0,3 L20,3 L20,17 L0,17 L0,3 Z M2,5.03271484 L2,15.0327148 L18.001709,15.0327148 L18.001709,5.03271484 L2,5.03271484 Z"></path>
+	</g>
 	</svg>
 ]
 
@@ -58,15 +62,15 @@ registerBlockType( 'gutenkit/spacer', {
 	category: 'common',
 	keywords: [ __( 'space' ) ],
 	attributes: {
-		space: {
+		height: {
 			type: 'number',
 			default: 50,
 		},
 	},
 
-	edit( { attributes, setAttributes, focus, className } ) {
+	edit( { attributes, setAttributes, focus, className, settings, toggleSelection } ) {
 
-		const { space } = attributes;
+		const { height } = attributes;
 
 		const inspectorControls = focus && (
 			<InspectorControls key="inspector">
@@ -74,42 +78,50 @@ registerBlockType( 'gutenkit/spacer', {
 					<p>{ __( 'Add a vertical spacer between blocks.' ) }</p>
 				</BlockDescription>
 				<RangeControl
-					label={ __( 'Space' ) }
-					value={ space || '' }
-					onChange={ ( value ) => setAttributes( { space: value } ) }
+					label={ __( 'Height' ) }
+					value={ height || '' }
+					onChange={ ( value ) => setAttributes( { height: value } ) }
 					min={ 30 }
-					max={ 600 }
+					max={ 800 }
 				/>
 			</InspectorControls>
 		);
 
-		const focusControls = focus && (
-			<form
-				key="form-range"
-				className="blocks-spacer__range"
-				onSubmit={ ( event ) => event.preventDefault() }>
-				<RangeControl
-					value={ space }
-					onChange={ ( value ) => setAttributes( { space: value } ) }
-					min={ 30 }
-					max={ 600 }
-				/>
-			</form>
-		);
-
 		return [
-			focusControls,
+
 			inspectorControls,
-			<div className={ className } style={ { height: space ? space + 'px' : undefined } }></div>,
+			<ResizableBox
+				size={ {
+					width: '100%',
+					height: height,
+				} }
+				minWidth= { '100%' }
+				maxWidth= { '100%' }
+				minHeight= { '100%' }
+				handleClasses={ {
+					bottomLeft: 'gutenkit-block-spacer__resize-handler-bottom-left',
+				} }
+				enable={ { top: false, right: false, bottom: true, left: false, topRight: false, bottomRight: false, bottomLeft: true, topLeft: false } }
+				onResizeStart={ () => {
+					toggleSelection( false );
+				} }
+				onResizeStop={ ( event, direction, elt, delta ) => {
+					setAttributes( {
+						height: parseInt( height + delta.height, 10 ),
+					} );
+					toggleSelection( true );
+				} }
+			>
+			</ResizableBox>
 		];
 	},
 
 	save( { attributes, className } ) {
 
-		const { space } = attributes;
+		const { height } = attributes;
 
 		return (
-			<div className={ className } style={ { height: space ? space + 'px' : undefined } }></div>
+			<div className={ className } style={ { height: height ? height + 'px' : undefined } }></div>
 		);
 	},
 } );
