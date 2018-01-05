@@ -4,7 +4,7 @@
 	"slug": "spacer-block-gutenberg",
 	"textdomain": "spacer-block-gutenberg",
 	"author": "Rich from GutenKit",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"main": "block/block.jsx",
 	"tags": "gutenberg, spacer, editor, block, layout",
 	"requires": "4.7",

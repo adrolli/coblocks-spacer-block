@@ -5,27 +5,15 @@
 import ResizableBox from 're-resizable';
 
 const { __ } = wp.i18n;
-const { Toolbar, PanelBody, PanelColor, Dashicon, IconButton } = wp.components;
-const InspectorControls = wp.blocks.InspectorControls;
-const { RangeControl, ToggleControl, SelectControl } = InspectorControls;
 
 const {
 	registerBlockType,
-	Editable,
-	BlockControls,
-	AlignmentToolbar,
 	BlockDescription,
-	UrlInput,
-	ColorPalette,
+	InspectorControls,
 	source
 } = wp.blocks;
 
-const blockAttributes = {
-	space: {
-		type: 'number',
-		default: 100,
-	},
-};
+const { RangeControl } = InspectorControls;
 
 const icon = [
 	<svg
@@ -59,8 +47,8 @@ const icon = [
 registerBlockType( 'gutenkit/spacer', {
 	title: __( 'Spacer' ),
 	icon: icon,
-	category: 'common',
-	keywords: [ __( 'space' ) ],
+	category: 'layout',
+	keywords: [ __( 'space' ), __( 'layout' ) ],
 	attributes: {
 		height: {
 			type: 'number',
@@ -68,7 +56,7 @@ registerBlockType( 'gutenkit/spacer', {
 		},
 	},
 
-	edit( { attributes, setAttributes, focus, className, settings, toggleSelection } ) {
+	edit( { attributes, setAttributes, focus, toggleSelection } ) {
 
 		const { height } = attributes;
 
