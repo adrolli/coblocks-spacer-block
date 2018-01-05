@@ -6,7 +6,7 @@
 
 ### See it in action: ###
 
-![GutenKit Spacer Block for Gutenberg]()
+![GutenKit Spacer Block for Gutenberg](https://user-images.githubusercontent.com/1813435/34617601-f5228c9e-f209-11e7-85af-b7f507bf3a06.gif)
 
 ## Installation ##
 
