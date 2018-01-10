@@ -1,5 +1,6 @@
 # Gutenberg Spacer Block by GutenKit
 
+[![WP](https://img.shields.io/badge/WordPress-%E2%86%92-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/spacer-block-gutenberg)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/gutenkit-spacer-block/blob/master/license.txt)
 
 A Gutenberg block from [GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkit) that let's you easily add vertical spacing between blocks within the Gutenberg editor. 
