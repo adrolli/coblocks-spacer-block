@@ -48,7 +48,7 @@ registerBlockType( 'gutenkit/spacer', {
 	title: __( 'Spacer' ),
 	icon: icon,
 	category: 'layout',
-	keywords: [ __( 'space' ), __( 'layout' ) ],
+	keywords: [ __( 'space' ), __( 'layout' ), __( 'gutenkit' ) ],
 	attributes: {
 		height: {
 			type: 'number',
