@@ -46,6 +46,7 @@ const icon = [
  */
 registerBlockType( 'gutenkit/spacer', {
 	title: __( 'Spacer' ),
+	description: __( 'Add space between other blocks.' ),
 	icon: icon,
 	category: 'layout',
 	keywords: [ __( 'space' ), __( 'layout' ), __( 'gutenkit' ) ],
