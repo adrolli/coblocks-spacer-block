@@ -13,7 +13,6 @@ const { __ } = wp.i18n;
 
 const {
 	registerBlockType,
-	BlockDescription,
 	InspectorControls,
 	source
 } = wp.blocks;
@@ -37,24 +36,18 @@ const icon = [
 	</svg>
 ]
 
-/**
- * Register Block.
- *
- * Registers a new block provided a unique name and an object defining its
- * behavior. Once registered, the block is made available as an option to any
- * editor interface where blocks are implemented.
- *
- * @param  {string}   name     Block name.
- * @param  {Object}   settings Block settings.
- * @return {?WPBlock}          The block, if it has been successfully
- *                             registered; otherwise `undefined`.
- */
 registerBlockType( 'gutenkit/spacer', {
+
 	title: __( 'Spacer' ),
+
 	description: __( 'Add space between other blocks.' ),
+
 	icon: icon,
+
 	category: 'layout',
+
 	keywords: [ __( 'space' ), __( 'layout' ), __( 'gutenkit' ) ],
+
 	attributes: {
 		height: {
 			type: 'number',
@@ -68,9 +61,6 @@ registerBlockType( 'gutenkit/spacer', {
 
 		const inspectorControls = focus && (
 			<InspectorControls key="inspector">
-				<BlockDescription>
-					<p>{ __( 'Add a vertical spacer between blocks.' ) }</p>
-				</BlockDescription>
 				<RangeControl
 					label={ __( 'Height' ) }
 					value={ height || '' }
