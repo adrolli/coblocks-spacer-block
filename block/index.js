@@ -4,6 +4,11 @@
 
 import ResizableBox from 're-resizable';
 
+/**
+ * Internal Dependencies
+ */
+import './editor.scss';
+
 const { __ } = wp.i18n;
 
 const {

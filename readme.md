@@ -3,7 +3,7 @@
 [![WP](https://img.shields.io/badge/WordPress-%E2%86%92-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/spacer-block-gutenberg)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/gutenkit-spacer-block/blob/master/license.txt)
 
-A Gutenberg block from [GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkit) that let's you easily add vertical spacing between blocks within the Gutenberg editor. 
+A Gutenberg block from [GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=gutenkit) that let's you easily add vertical spacing between blocks within the Gutenberg editor.
 
 [![View the GutenKit Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://gutenkit.com)
 
@@ -21,7 +21,7 @@ If you find a 🐞 or an issue, [create an issue](https://github.com/thatpluginc
 2. Browse to the folder in the command line.
 3. Run the `npm install` command to install the plugin's dependencies within a /node_modules/ folder.
 4. Run the `npm run dev` command for development.
-5. Run the default gulp task to process the style.scss and editor.scss files.
+5. Run the `build` gulp task to process build files and generate a zip.
 
 ## Support ##
 Need help? This is a developer's portal for GutenKit and should not be used for general support. Please visit the [support forum on WordPress.org](https://wordpress.org/support/plugin/spacer-block-gutenberg) if you need help.
@@ -38,5 +38,5 @@ There are various ways you can contribute:
 ## Meet GutenKit. Coming April 2018. ##
 
 [![GutenKit, an upcoming kit of Gutenberg Blocks](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://gutenkit.com)
-    
-[GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=meeet-gutenkit) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages. 
+
+[GutenKit](https://gutenkit.com?utm_medium=gutenkit-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=meeet-gutenkit) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages.
