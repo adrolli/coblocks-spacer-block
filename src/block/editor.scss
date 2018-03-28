@@ -1,33 +1,35 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
 .editor-block-list__block[data-type="gutenkit/spacer"] {
+
+	.gutenkit-spacer-control {
+		margin-bottom: 0;
+	}
 
 	&.is-selected::before {
 		outline: none;
 	}
 
-	& + .editor-block-list__sibling-inserter {
-		top: 4px;
-	}
-
 	.editor-block-list__block-edit {
-		outline: 1px dashed rgba(0, 0, 0, .1);
+		outline: 1px dashed $lightgray;
 	}
 
 	&.is-selected .editor-block-list__block-edit,
 	&.is-hovered .editor-block-list__block-edit {
-		outline: 1px dotted rgba(0, 0, 0, .1)
+		outline: 1px dotted $lightgray;
 	}
 
-	&.is-selected .editor-block-list__block-edit{
+	&.is-selected .editor-block-list__block-edit {
 		outline: 1px solid #e2e4e7;
-	}
-
-	.editor-block-contextual-toolbar+div {
-		margin-top: -19px !important;
-		padding-top: 0px !important;
 	}
 }
 
-.gutenkit-block-spacer__resize-handler-bottom-left {
+.gutenkit-block-spacer-control__resize-handle {
 	background: none;
 	background: none;
 	border-radius: 0;
@@ -40,7 +42,9 @@
 	z-index: 999;
 
 	.editor-block-list__block[data-type="gutenkit/spacer"].is-selected &,
-	.editor-block-list__block[data-type="gutenkit/spacer"].is-hovered & {
+	.editor-block-list__block[data-type="gutenkit/spacer"].is-hovered &,
+	.editor-block-list__block[data-type="gutenkit/dynamic-separator"].is-selected &,
+	.editor-block-list__block[data-type="gutenkit/dynamic-separator"].is-hovered & {
 		display: block;
 	}
 
