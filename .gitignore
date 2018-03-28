@@ -78,3 +78,5 @@ node_modules
 # Sublime Project Files #
 *.sublime-project
 *.sublime-workspace
+
+*.cache
