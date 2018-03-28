@@ -11,13 +11,13 @@
  * Requires at least: @@pkg.requires
  * Tested up to: @@pkg.tested_up_to
  *
- * Writy Companion is distributed in the hope that it will be useful,
+ * @@pkg.title is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Writy Companion. If not, see <http://www.gnu.org/licenses/>.
+ * along with @@pkg.title. If not, see <http://www.gnu.org/licenses/>.
  *
  * @package   @@pkg.title
  * @author    @@pkg.author
@@ -25,9 +25,9 @@
  */
 
 /**
- * Main Writy Companion Class
+ * Gutenberg Spacer Block Class
  *
- * @since 1.0.0
+ * @since 1.1.0
  */
 class GutenKit_Spacer_Block {
 
