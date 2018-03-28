@@ -74,6 +74,7 @@ node_modules
 ##########
 /README.html
 /build/
+/dist/
 
 # Sublime Project Files #
 *.sublime-project
