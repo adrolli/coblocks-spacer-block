@@ -11,7 +11,7 @@
 		margin-bottom: 0;
 	}
 
-	&.is-selected::before {
+	&.is-selected:before {
 		outline: none;
 	}
 
@@ -48,11 +48,11 @@
 		display: block;
 	}
 
-	&::after {
+	&:after {
 		background-color: #555d66;
 		border-radius: 100px;
 		border: 2px solid #fff;
-		content: '';
+		content: "";
 		display: block;
 		height: 12px;
 		left: 50%;
