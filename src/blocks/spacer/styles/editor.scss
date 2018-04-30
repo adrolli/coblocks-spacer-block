@@ -1,18 +1,7 @@
-/**
- * #.# Editor Styles
- *
- * CSS for just Backend enqueued after style.scss
- * which makes it higher in priority.
- */
+.editor-block-list__block[data-type="coblocks/spacer"] {
 
-.editor-block-list__block[data-type="gutenkit/spacer"] {
-
-	.gutenkit-spacer-control {
+	.coblocks-spacer-control {
 		margin-bottom: 0;
-	}
-
-	&.is-selected:before {
-		outline: none;
 	}
 
 	.editor-block-list__block-edit {
@@ -29,8 +18,7 @@
 	}
 }
 
-.gutenkit-block-spacer-control__resize-handle {
-	background: none;
+.coblocks-block-spacer-control__resize-handle {
 	background: none;
 	border-radius: 0;
 	bottom: -15px !important;
@@ -41,14 +29,12 @@
 	width: 100% !important;
 	z-index: 999;
 
-	.editor-block-list__block[data-type="gutenkit/spacer"].is-selected &,
-	.editor-block-list__block[data-type="gutenkit/spacer"].is-hovered &,
-	.editor-block-list__block[data-type="gutenkit/dynamic-separator"].is-selected &,
-	.editor-block-list__block[data-type="gutenkit/dynamic-separator"].is-hovered & {
+	.editor-block-list__block.is-selected &,
+	.editor-block-list__block.is-hovered & {
 		display: block;
 	}
 
-	&:after {
+	&::after {
 		background-color: #555d66;
 		border-radius: 100px;
 		border: 2px solid #fff;

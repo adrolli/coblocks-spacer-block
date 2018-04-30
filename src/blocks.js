@@ -1,5 +1,5 @@
 /**
- * Gutenberg Blocks
+ * @@pkg.title Blocks
  *
  * All blocks related JavaScript files should be imported here.
  * You can create a new block folder in this dir and include code
@@ -9,4 +9,4 @@
  * Webpack is compiling as the input file.
  */
 
-import './block/block.js';
+import './blocks/spacer/index.js';
