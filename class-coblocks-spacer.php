@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: CoBlocks
+ * Plugin Name: Gutenberg Spacer Block by CoBlocks
  * Plugin URI: https://coblocks.com
  * Description: @@pkg.description
  * Author: Rich Tabor from CoBlocks
  * Author URI: https://coblocks.com
  * Tags: gutenberg, editor, block, layout, writing
- * Version: 1.2.0
+ * Version: 1.2.1
  * Text Domain: '@@pkg.name'
  * Domain Path: languages
  * Tested up to: @@pkg.tested_up_to
@@ -49,6 +49,7 @@ class CoBlocks_Spacer {
 	public static function register() {
 		if ( null === self::$instance ) {
 			self::$instance = new CoBlocks_Spacer();
+			self::$instance->includes();
 		}
 	}
 
@@ -96,6 +97,29 @@ class CoBlocks_Spacer {
 	}
 
 	/**
+	 * Check if CoBlocks lite or pro is activated.
+	 *
+	 * @access public
+	 */
+	public function has_coblocks() {
+
+		if ( class_exists( 'CoBlocks' ) || class_exists( 'CoBlocks_Pro' ) ) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	/**
+	 * Include classes
+	 *
+	 * @return void
+	 */
+	public function includes() {
+		require_once 'includes/class-coblocks-spacer-notices.php';
+	}
+
+	/**
 	 * Add actions to enqueue assets.
 	 *
 	 * @access public
@@ -104,6 +128,11 @@ class CoBlocks_Spacer {
 
 		// Return early if this function does not exist.
 		if ( ! function_exists( 'register_block_type' ) ) {
+			return;
+		}
+
+		// Return early if CoBlocks Lite or Pro is active.
+		if ( $this->has_coblocks() ) {
 			return;
 		}
 
