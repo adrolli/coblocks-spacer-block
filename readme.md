@@ -35,8 +35,8 @@ There are various ways you can contribute:
 2. Send a pull request with your bug fixes and/or new features
 3. Provide feedback and suggestions on [enhancements](https://github.com/thatplugincompany/coblocks-spacer-block/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open)
 
-## Meet CoBlocks. Coming April 2018. ##
+## Meet CoBlocks.##
 
-[![CoBlocks, an upcoming kit of Gutenberg Blocks](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://coblocks.com)
+[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/34618784-e4c1a782-f20d-11e7-803f-4a9bb10e2d52.jpg)](https://coblocks.com)
 
-[CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=meeet-coblocks) is an upcoming suite of Gutenberg blocks designed to help you build better sales and landing pages.
+[CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=footer-text) is an upcoming suite of page builder Gutenberg blocks built for publishers, writers and content marketers.
