@@ -5,7 +5,7 @@
 
 ## Meet CoBlocks. ##
 
-[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39446385-4d4d8766-4c8c-11e8-8e65-098323899577.jpg)](https://coblocks.com)
+[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39448405-d56fa678-4c92-11e8-9c92-fda9ab5cfd09.jpg)](https://coblocks.com)
 
 ## CoBlocks Spacer Block ##
 
