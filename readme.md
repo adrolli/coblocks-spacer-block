@@ -3,9 +3,7 @@
 [![WP](https://img.shields.io/badge/WordPress-%E2%86%92-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/spacer-block-gutenberg)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/coblocks-spacer-block/blob/master/license.txt)
 
-## Meet CoBlocks. ##
-
-[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39448405-d56fa678-4c92-11e8-9c92-fda9ab5cfd09.jpg)](https://coblocks.com)
+[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39494435-5fc12b72-4d64-11e8-8dc4-24e159afe340.jpg)](https://coblocks.com)
 
 ## CoBlocks Spacer Block ##
 
