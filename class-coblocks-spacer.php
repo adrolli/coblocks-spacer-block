@@ -82,18 +82,36 @@ class CoBlocks_Spacer {
 	private $_slug;
 
 	/**
+	 * The plugin's store.
+	 *
+	 * @var string $_store
+	 */
+	private $_store;
+
+	/**
+	 * This plugin.
+	 *
+	 * @var string $_plugin
+	 */
+	private $_plugin;
+
+	/**
 	 * The Constructor.
 	 */
 	private function __construct() {
 
 		$this->_version = '@@pkg.version';
 		$this->_slug    = 'coblocks';
+		$this->_store   = 'https://coblocks.com';
+		$this->_plugin  = $this->_slug . '-spacer-block-plugin';
 		$this->_dir     = untrailingslashit( plugin_dir_path( '/', __FILE__ ) );
 		$this->_url     = untrailingslashit( plugins_url( '/', __FILE__ ) );
 
 		add_action( 'init', array( $this, 'register_blocks' ) );
 		add_action( 'init', array( $this, 'block_assets' ) );
 		add_action( 'init', array( $this, 'editor_assets' ) );
+		add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 2 );
+		add_filter( 'plugin_action_links_' . plugin_basename( plugin_dir_path( __FILE__ ) . 'class-coblocks-spacer.php' ), array( $this, 'plugin_action_links' ) );
 	}
 
 	/**
@@ -186,6 +204,105 @@ class CoBlocks_Spacer {
 			array( 'wp-blocks', 'wp-i18n', 'wp-element' ),
 			$this->_version
 		);
+	}
+
+	/**
+	 * Returns the URL to upgrade the plugin to the pro version.
+	 * Can be overridden by theme developers to use their affiliate
+	 * link using the coblocks_affiliate_id filter.
+	 *
+	 * @since  1.0.0
+	 * @return string
+	 */
+	public function get_affiliate_id() {
+
+		$id = array( 'ref' => apply_filters( 'coblocks_affiliate_id', null ) );
+
+		return $id;
+	}
+
+	/**
+	 * Returns a URL that points to the Beaver Builder store.
+	 *
+	 * @since 1.0.0
+	 * @param string|string $path A URL path to append to the store URL.
+	 * @param array|array   $params An array of key/value params to add to the query string.
+	 * @return string
+	 */
+	public function get_store_url( $path = '', $params = array() ) {
+
+		$id = $this->get_affiliate_id();
+
+		$params = array_merge( $params, $id );
+
+		$url = trailingslashit( $this->_store . '/' . $path ) . '?' . http_build_query( $params, '', '&#038;' );
+
+		return $url;
+	}
+
+	/**
+	 * Add a link next to the Activate/Deactivate action
+	 *
+	 * @param       array|array $actions The plugin.
+	 * @return      array
+	 */
+	public function plugin_action_links( $actions ) {
+
+		$title = esc_html__( 'Get CoBlocks', '@@textdomain' );
+
+		$url = $this->get_store_url(
+			'support',
+			array(
+				'utm_medium'   => $this->_plugin,
+				'utm_source'   => 'plugins-page',
+				'utm_campaign' => 'plugins-action-link',
+				'utm_content'  => 'Get CoBlocks',
+			)
+		);
+
+		// Use the WordPress.org URL for now.
+		$url = 'https://wordpress.org/plugins/coblocks';
+
+		// Merge and display each link.
+		return array_merge(
+			array( 'url' => sprintf( '<a href="%s" target="_blank">%s</a>', esc_url( $url ), $title ) ),
+			$actions
+		);
+	}
+
+	/**
+	 * Plugin row meta links
+	 *
+	 * @param array|array   $input already defined meta links.
+	 * @param string|string $file plugin file path and name being processed.
+	 * @return array $input
+	 */
+	public function plugin_row_meta( $input, $file ) {
+
+		if ( 'spacer-block-gutenberg/class-coblocks-spacer.php' !== $file ) {
+			return $input;
+		}
+
+		$url = $this->get_store_url(
+			'extensions',
+			array(
+				'utm_medium'   => $this->_plugin,
+				'utm_source'   => 'plugins-page',
+				'utm_campaign' => 'plugins-row',
+				'utm_content'  => 'extensions',
+			)
+		);
+
+		// Use the WordPress.org URL for now.
+		$url = 'https://wordpress.org/plugins/coblocks';
+
+		$links = array(
+			'<a href="' . esc_url( $url ) . '" target="_blank">' . esc_html__( 'More blocks', '@@textdomain' ) . '</a>',
+		);
+
+		$input = array_merge( $input, $links );
+
+		return $input;
 	}
 }
 
