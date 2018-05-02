@@ -32,7 +32,7 @@ This is a Gutenberg block from [CoBlocks](https://coblocks.com?utm_medium=cobloc
 Need help? This is a developer's portal for CoBlocks and should not be used for general support and queries. Please visit the [CoBlocks support forum on WordPress.org](https://wordpress.org/support/plugin/coblocks) if you need help using the plugin.
 
 ## Bugs ##
-[Create an issue](https://github.com/thatplugincompany/coblocks-spacer-block/issues?state=open) if you find a 🐞 or discover an issue.
+[Create an issue](https://github.com/thatplugincompany/coblocks/issues/new) if you find a 🐞 or discover an issue.
 
 ## Contributions ##
 Please read the [guidelines for contributing](https://github.com/thatplugincompany/coblocks/blob/master/CONTRIBUTING.md) to CoBlocks. Anyone is welcome to contribute!
