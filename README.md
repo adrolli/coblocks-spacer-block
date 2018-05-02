@@ -45,4 +45,4 @@ There are various ways you can contribute:
 
 ## Screenshot ##
 
-[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://coblocks.com)
+[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/39523967-6af49692-4de5-11e8-9d8a-06d3c2f611f3.jpg)](https://coblocks.com)
