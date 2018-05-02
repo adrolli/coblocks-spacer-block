@@ -3,9 +3,9 @@
 [![WP](https://img.shields.io/badge/WordPress-%E2%86%92-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/spacer-block-gutenberg)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/spacer-block-gutenberg.svg?style=flat)](https://wordpress.org/plugins/spacer-block-gutenberg/) [![WordPress](https://img.shields.io/wordpress/v/spacer-block-gutenberg.svg?style=flat)]() [![License](https://img.shields.io/badge/license-GPL--3.0%2B-red.svg)](https://github.com/thatplugincompany/coblocks-spacer-block/blob/master/license.txt)
 
-[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39494435-5fc12b72-4d64-11e8-8dc4-24e159afe340.jpg)](https://coblocks.com)
+[![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39494435-5fc12b72-4d64-11e8-8dc4-24e159afe340.jpg)](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=banner)
 
-> 📖 Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks).
+> 📖 Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=launch-post-link).
 
 > 💥 WordPress → [Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
 
@@ -47,4 +47,4 @@ There are various ways you can contribute:
 
 ## Screenshot ##
 
-[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/39523967-6af49692-4de5-11e8-9d8a-06d3c2f611f3.jpg)](https://coblocks.com)
+[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/39523967-6af49692-4de5-11e8-9d8a-06d3c2f611f3.jpg)](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=screenshot)
