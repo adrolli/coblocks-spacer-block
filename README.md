@@ -11,7 +11,7 @@
 
 ## CoBlocks Spacer Block ##
 
-This is a Gutenberg block from [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=coblocks) that let's you easily add vertical spacing between blocks within the Gutenberg editor. [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=footer-text) is an upcoming suite of page builder Gutenberg blocks built for publishers, writers and content marketers.
+This is a Gutenberg block from [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=coblocks) that let's you easily add vertical spacing between blocks within the Gutenberg editor. [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=footer-text) is an upcoming suite of page builder Gutenberg blocks built for publishers, writers and content marketers.
 
 > 💥: More blocks → [CoBlocks: Gutenberg blocks for content marketers](https://github.com/thatplugincompany/coblocks).
 
