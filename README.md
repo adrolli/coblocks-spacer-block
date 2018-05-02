@@ -7,7 +7,7 @@
 
 > 📖 Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks).
 
-> 💥 WordPress plugin → [Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
+> 💥 WordPress → [Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
 
 ---
 
