@@ -9,19 +9,17 @@
 
 This is a Gutenberg block from [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-github&utm_source=readme&utm_campaign=readme&utm_content=coblocks) that let's you easily add vertical spacing between blocks within the Gutenberg editor. [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=footer-text) is an upcoming suite of page builder Gutenberg blocks built for publishers, writers and content marketers.
 
-[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://coblocks.com)
-
 ## Installation ##
 
 1. Install the offical [Gutenberg](https://wordpress.org/plugins/gutenberg/) plugin. Note that Gutenberg is not suggested for use on production sites.
-2. [Download the latest release](https://github.com/thatplugincompany/coblocks-spacer-block/releases) from the GitHub repository, or..
-3. Download the plugin from the [WordPress plugin directory](https://wordpress.org/plugins/spacer-block-gutenberg/).
+2. Download the plugin from the [WordPress plugin directory](https://wordpress.org/plugins/spacer-block-gutenberg/), or...
+3. Clone this GitHub repository, and run the `npm install` and `npm start` commands.
 
 ## Development ##
 1. Clone the GitHub repository: `https://github.com/thatplugincompany/coblocks-spacer-block.git`
 2. Browse to the folder in the command line.
 3. Run the `npm install` command to install the plugin's dependencies within a /node_modules/ folder.
-4. Run the `npm run dev` command for development.
+4. Run the `npm start` command for development.
 5. Run the `build` gulp task to process build files and generate a zip.
 
 ## Support ##
@@ -38,3 +36,7 @@ There are various ways you can contribute:
 1. Raise an [Issue](https://github.com/thatplugincompany/coblocks-spacer-block/issues) on GitHub
 2. Send a pull request with your bug fixes and/or new features
 3. Provide feedback and suggestions on [enhancements](https://github.com/thatplugincompany/coblocks-spacer-block/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open)
+
+## Screenshot ##
+
+[![View the CoBlocks Spacer Block in action](https://user-images.githubusercontent.com/1813435/34619685-f744b2c0-f210-11e7-901f-45552f9a9b08.gif)](https://coblocks.com)
