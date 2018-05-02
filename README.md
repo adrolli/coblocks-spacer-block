@@ -5,7 +5,9 @@
 
 [![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39494435-5fc12b72-4d64-11e8-8dc4-24e159afe340.jpg)](https://coblocks.com)
 
-> 📖: Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks).
+> 📖 Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks).
+
+> [💥 → Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
 
 ---
 
@@ -13,7 +15,7 @@
 
 This is a Gutenberg block from [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=coblocks) that let's you easily add vertical spacing between blocks within the Gutenberg editor. [CoBlocks](https://coblocks.com?utm_medium=coblocks-spacer-block-github&utm_source=readme&utm_campaign=readme&utm_content=footer-text) is an upcoming suite of page builder Gutenberg blocks built for publishers, writers and content marketers.
 
-> 💥: More blocks → [CoBlocks: Gutenberg blocks for content marketers](https://github.com/thatplugincompany/coblocks).
+> 💥 More blocks → [CoBlocks: Gutenberg blocks for content marketers](https://github.com/thatplugincompany/coblocks).
 
 ## Installation ##
 
