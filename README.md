@@ -5,9 +5,9 @@
 
 [![CoBlocks, an upcoming suite of Gutenberg Blocks for Content Marketers](https://user-images.githubusercontent.com/1813435/39494435-5fc12b72-4d64-11e8-8dc4-24e159afe340.jpg)](https://coblocks.com)
 
-> 💥 WordPress plugin → [Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
-
 > 📖 Launch post → [Add Space Between Gutenberg Blocks with the CoBlocks Spacer Block](https://richtabor.com/gutenkit-spacer-gutenberg-blocks).
+
+> 💥 WordPress plugin → [Download CoBlocks on WordPress.org](https://wordpress.org/plugins/coblocks/).
 
 ---
 
