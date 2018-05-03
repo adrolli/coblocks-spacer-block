@@ -89,21 +89,13 @@ class CoBlocks_Spacer {
 	private $_store;
 
 	/**
-	 * This plugin.
-	 *
-	 * @var string $_plugin
-	 */
-	private $_plugin;
-
-	/**
 	 * The Constructor.
 	 */
 	private function __construct() {
 
 		$this->_version = '@@pkg.version';
-		$this->_slug    = 'coblocks';
+		$this->_slug    = 'coblocks-spacer-block-plugin';
 		$this->_store   = 'https://coblocks.com';
-		$this->_plugin  = $this->_slug . '-spacer-block-plugin';
 		$this->_dir     = untrailingslashit( plugin_dir_path( '/', __FILE__ ) );
 		$this->_url     = untrailingslashit( plugins_url( '/', __FILE__ ) );
 
@@ -158,7 +150,7 @@ class CoBlocks_Spacer {
 		$slug = $this->_slug;
 
 		register_block_type(
-			$slug . '/spacer', array(
+			'coblocks/spacer', array(
 				'editor_script' => $slug . '-editor',
 				'editor_style'  => $slug . '-editor',
 				'style'         => $slug . '-frontend',
@@ -253,7 +245,7 @@ class CoBlocks_Spacer {
 		$url = $this->get_store_url(
 			'support',
 			array(
-				'utm_medium'   => $this->_plugin,
+				'utm_medium'   => $this->_slug,
 				'utm_source'   => 'plugins-page',
 				'utm_campaign' => 'plugins-action-link',
 				'utm_content'  => 'Get CoBlocks',
@@ -286,7 +278,7 @@ class CoBlocks_Spacer {
 		$url = $this->get_store_url(
 			'extensions',
 			array(
-				'utm_medium'   => $this->_plugin,
+				'utm_medium'   => $this->_slug,
 				'utm_source'   => 'plugins-page',
 				'utm_campaign' => 'plugins-row',
 				'utm_content'  => 'extensions',
